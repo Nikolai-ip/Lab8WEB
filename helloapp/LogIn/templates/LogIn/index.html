@@ -1,0 +1,22 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    {% load static %}
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link href="{% static 'LogIn/css/style.css'%}" rel="stylesheet" type="text/css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+</head>
+<body>
+    <form method="post" action="telegramm">
+        {% csrf_token %}
+        <input name="name" placeholder="Имя" required>
+        <input name="email"  placeholder="email" required>
+        <input name="password" placeholder="Пароль" required>
+        <button id="Send-button" type="submit"></button>
+    </form>
+
+    <script type="text/javascript" src="{% static 'LogIn/js/script.js'%}"></script>
+</body>
+</html>

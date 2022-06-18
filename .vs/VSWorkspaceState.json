@@ -1,0 +1,15 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\helloapp",
+    "\\helloapp\\auto",
+    "\\helloapp\\auto\\static",
+    "\\helloapp\\auto\\static\\auto",
+    "\\helloapp\\auto\\static\\auto\\css",
+    "\\helloapp\\auto\\static\\auto\\js",
+    "\\helloapp\\auto\\templates",
+    "\\helloapp\\auto\\templates\\auto"
+  ],
+  "SelectedNode": "\\helloapp\\auto\\static\\auto\\js\\script.js",
+  "PreviewInSolutionExplorer": false
+}

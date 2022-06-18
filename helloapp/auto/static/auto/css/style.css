@@ -1,0 +1,56 @@
+.block{
+    margin:5%;
+    padding:2% 2% 2% 2%;
+    display:flex;
+    border:2px solid #808080;
+    border-radius:10px;
+    font-size:20px;
+    background-color:#323232;
+    color:white;
+}
+    .block hr {
+        border: 2px solid #808080;
+        position: relative;
+        left: 15%;
+    }
+.name {
+    border: 2px solid #808080;
+    border-radius: 10px;
+    width: 25%;
+    height: 12%;
+    text-align: center;
+    margin: -2%;
+    margin-left: 10%;
+}
+.description {
+    height: 50%;
+    width: 40%;
+    margin-right:6%;
+    margin-top:5%;
+    margin-left:-25%;
+
+}
+.info {
+    position:absolute;
+    top:80%;
+}
+
+.image {
+    position: relative;
+    height: 50%;
+    left:1%;
+    width: 50%;
+}
+.like{
+    position:absolute;
+    border-radius:10px;
+    width:50px;
+    height:50px;
+}
+.change-languageBtn{
+
+    border-radius:10px;
+    width:50px;
+    height:50px;
+}
+
